@@ -18,6 +18,7 @@
 		"clean": "npm outdated && npm prune",
 		"docs": "jsdoc -c jsdocs.js -r",
 		"lint": "eslint .",
+		"release": "np",
 		"test": "nyc --reporter=lcov --reporter=text-summary mocha",
 		"testd": "NODE_ENV=TESTING nyc mocha"
 	},
@@ -48,13 +49,13 @@
 		"gen-esm-wrapper": "*",
 		"jsdoc": "*",
 		"mocha": "*",
-		"nyc": "*"
+		"nyc": "*",
+		"postman-jsdoc-theme": "0.0.3"
 	},
 	"dependencies": {
 		"bytes": "^3.1.0",
 		"html-pdf": "^3.0.1",
 		"libnpm": "^3.0.1",
-		"marked": "^3.0.2",
-		"pdfkit": "^0.12.3"
+		"marked": "^3.0.2"
 	}
 }
