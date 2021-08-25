@@ -1,0 +1,15 @@
+.DS_Store
+.github/
+docs/
+test/
+.git
+.idea
+.editorconfig
+.eslint*
+.jshintrc
+.npmrc
+jsdocs.js
+.nyc_output
+coverage
+lcov.*
+lcov-*
