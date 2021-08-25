@@ -1,5 +1,5 @@
 {
-	"name": "npm-information",
+	"name": "@mi-sec/npm-information",
 	"version": "1.0.0",
 	"description": "Pull NPM information into a table format for dependency checking",
 	"main": "index.js",
