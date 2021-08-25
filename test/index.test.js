@@ -8,7 +8,7 @@
 const
     chai   = require( 'chai' ),
     expect = chai.expect,
-    test   = require( '../index' );
+    test   = require( '../src/npm-information' );
 
 describe( 'template-npm-module', () => {
     it( 'should say "hello world"', () => {
