@@ -13,3 +13,4 @@ jsdocs.js
 coverage
 lcov.*
 lcov-*
+*.pdf
